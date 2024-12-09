@@ -96,7 +96,7 @@ func onReady() {
 		for {
 			select {
 			case <-mIndex.ClickedCh:
-				openUrl("https://0x7e.cn")
+				openUrl("https://github.com/0x7eTeam/macbox")
 			case <-mEdit.ClickedCh:
 				executeCommand("./up")
 			case <-mReload.ClickedCh:
