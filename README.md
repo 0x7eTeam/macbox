@@ -16,9 +16,18 @@
 
   </p>
 
+## 效果图1
 
-结果
+![](images/aaaa1.png)
 
-![](images/js-4.png)
+## 效果图2
 
+![](images/aaaa2.png)
+
+## 使用
+主要是config.json,自己手动配置好，或者使用提供的up 去处理也行
+
+运行的时候使用nohup 置于后台即可
+
+![](images/aaaa3.png)
 有建议和需求可提 ISSUE 
