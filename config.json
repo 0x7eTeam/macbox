@@ -1,0 +1,325 @@
+{
+  "lists": [
+    {
+      "name": "信息收集",
+      "item": [
+        {
+          "item_name": "OneForAll",
+          "item_des": "子域名、端口扫描等",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/OneForAll\", \"ls\""
+        },
+        {
+          "item_name": "fofaView",
+          "item_des": "fofa空间测绘",
+          "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/01_Information_Gathering/FofaViewer_1.1.15_JDK8/fofaviewer.jar"
+        },
+        {
+          "item_name": "flashsearch",
+          "item_des": "聚合搜索",
+          "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/01_Information_Gathering/flashsearch2.0/FlashSearch.jar"
+        },
+        {
+          "item_name": "Finger",
+          "item_des": "指纹识别",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/Finger-main\", \"ls\""
+        },
+        {
+          "item_name": "Packer-Fuzzer",
+          "item_des": "一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/Packer-Fuzzer-master\", \"ls\""
+        },
+        {
+          "item_name": "dirsearch-0.4.3",
+          "item_des": "dirsearch-0.4.3",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/dirsearch-0.4.3\", \"ls\""
+        },
+        {
+          "item_name": "dirsearch_bypass403",
+          "item_des": "",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/dirsearch_bypass403\", \"ls\""
+        },
+        {
+          "item_name": "URLFinder_Darwin_x86_64",
+          "item_des": "一款快速、全面、易用的页面信息提取工具",
+          "item_run": "\"/Users/luze/Desktop/attackBOX/tools/01_Information_Gathering/URLFinder_Darwin_x86_64\", \"ls\""
+        },
+        {
+          "item_name": "lzScan",
+          "item_des": "",
+          "item_run": "\"./tools/01_Information_Gathering/lzScan\", \"./lzscan\""
+        }
+      ]
+    },
+    {
+      "name": "shell管理",
+      "item": [
+        {
+          "item_name": "AntSword",
+          "item_des": "中国蚁剑",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/02_WebShell/AntSword.App"
+        },
+        {
+          "item_name": "Behinder",
+          "item_des": "",
+          "item_run": "",
+          "sub_items": [
+            {
+              "item_name": "Behinder_v4.1",
+              "item_des": "",
+              "item_run": "\"/Users/luze/Desktop/attackBOX/tools/02_WebShell/Behinder/Behinder_v4.1/\", \"/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar Behinder.jar\""
+            }
+          ]
+        },
+        {
+          "item_name": "Godzilla",
+          "item_des": "",
+          "item_run": "open ./tools/02_WebShell/Godzilla.app"
+        },
+        {
+          "item_name": "TianXie",
+          "item_des": "",
+          "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/02_WebShell/TianXie/TianXie.jar"
+        },
+        {
+          "item_name": "Webshell_Generate-1.2.1",
+          "item_des": "",
+          "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/02_WebShell/Webshell_Generate-1.2.1.jar"
+        },
+        {
+          "item_name": "Cknife",
+          "item_des": "",
+          "item_run": "open ./tools/02_WebShell/Cknife.app"
+        },
+        {
+          "item_name": "webshell",
+          "item_des": "",
+          "item_run": "open ./tools/02_WebShell/webshell"
+        }
+      ]
+    },
+    {
+      "name": "抓包代理",
+      "item": [
+        {
+          "item_name": "Proxifier",
+          "item_des": "",
+          "item_run": "open ./tools/03_Proxies/Proxifier.app"
+        },
+        {
+          "item_name": "BurpSuite_old",
+          "item_des": "",
+          "item_run": "open ./tools/03_Proxies/BurpSuiteOld.app"
+        },
+        {
+          "item_name": "BurpSuite_new",
+          "item_des": "",
+          "item_run": "open ./tools/03_Proxies/BurpSuiteNew.app"
+        },
+        {
+          "item_name": "Yakit",
+          "item_des": "",
+          "item_run": "open ./tools/03_Proxies/Yakit.app"
+        }
+      ]
+    },
+    {
+      "name": "漏洞利用",
+      "item": [
+        {
+          "item_name": "sqlmap",
+          "item_des": "",
+          "item_run": "\"./tools/04_vulnAttack/sqlmap-master\", \"ls\""
+        },
+        {
+          "item_name": "云资产利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/云资产利用工具",
+          "sub_items": [
+            {
+              "item_name": "oss-browser",
+              "item_des": "",
+              "item_run": "open ./tools/04_vulnAttack/云资产利用工具/oss-browser-darwin-x64/oss-browser.app"
+            },
+            {
+              "item_name": "cf_v0.5.0",
+              "item_des": "",
+              "item_run": "\"./tools/04_vulnAttack/云资产利用工具/cf_v0.5.0_darwin_amd64\", \"ls\""
+            }
+          ]
+        },
+        {
+          "item_name": "信息泄露利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/信息泄露利用工具"
+        },
+        {
+          "item_name": "Shiro反序列化漏洞综合利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Shiro反序列化漏洞综合利用工具"
+        },
+        {
+          "item_name": "Spring综合漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Spring综合漏洞利用工具"
+        },
+        {
+          "item_name": "Geoserver漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Geoserver漏洞利用工具/GeoServer漏洞综合利用工具v1.2_内部版"
+        },
+        {
+          "item_name": "Nacos综合漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Nacos综合漏洞利用工具"
+        },
+        {
+          "item_name": "大华漏洞综合利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/大华Dahua综合漏洞利用工具"
+        },
+        {
+          "item_name": "Spring综合漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Spring综合漏洞利用工具"
+        },
+        {
+          "item_name": "Hikvision综合漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/Hikvision综合漏洞利用工具"
+        },
+        {
+          "item_name": "OA类漏洞",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/OA类漏洞",
+          "sub_items": [
+            {
+              "item_name": "通达",
+              "item_des": "",
+              "item_run": "./tools/04_vulnAttack/OA类漏洞/通达 "
+            },
+            {
+              "item_name": "YongYou",
+              "item_des": "",
+              "item_run": "./tools/04_vulnAttack/OA类漏洞/YongYou"
+            },
+            {
+              "item_name": "综合工具",
+              "item_des": "",
+              "item_run": "./tools/04_vulnAttack/OA类漏洞/综合"
+            }
+          ]
+        },
+        {
+          "item_name": "框架中间件",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/框架中间件"
+        },
+        {
+          "item_name": "综合漏洞利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/综合漏洞利用工具",
+          "sub_items": [
+            {
+              "item_name": "0x7eTeamTools",
+              "item_des": "",
+              "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/04_vulnAttack/综合漏洞利用工具/0x7eTeamTools.v1.2/0x7eTeamTools_v1.2.jar"
+            },
+            {
+              "item_name": "LiqunKit_1.6.2_交流版",
+              "item_des": "",
+              "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/04_vulnAttack/综合漏洞利用工具/LiqunKit_1.5.1/LiqunKit_1.6.2_交流版.jar"
+            },
+            {
+              "item_name": "Apt_tools",
+              "item_des": "",
+              "item_run": "/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java -jar ./tools/04_vulnAttack/综合漏洞利用工具/apt/apt_tools-jar-with-dependencies.jar"
+            }
+          ]
+        },
+        {
+          "item_name": "数据库综合利用工具",
+          "item_des": "",
+          "item_run": "./tools/04_vulnAttack/数据库综合利用工具"
+        }
+      ]
+    },
+    {
+      "name": "漏洞扫描",
+      "item": [
+        {
+          "item_name": "xray_1.9.10",
+          "item_des": "",
+          "item_run": "\"./tools/05_vulnScan/xray_1.9.10\", \"ls\""
+        },
+        {
+          "item_name": "nuclei",
+          "item_des": "",
+          "item_run": "\"./tools/05_vulnScan/nuclei\", \"ls\""
+        },
+        {
+          "item_name": "Goby",
+          "item_des": "",
+          "item_run": "open ./tools/05_vulnScan/Goby.app"
+        },
+        {
+          "item_name": "afrog",
+          "item_des": "",
+          "item_run": "\"./tools/05_vulnScan/afrog\", \"ls\""
+        }
+      ]
+    },
+    {
+      "name": "通信隧道",
+      "item": [
+        {
+          "item_name": "Stowaway",
+          "item_des": "",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/06_tunnel/Stowaway"
+        },
+        {
+          "item_name": "suo5",
+          "item_des": "",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/06_tunnel/suo5"
+        },
+        {
+          "item_name": "Neo-reGeorg-5.2.0",
+          "item_des": "",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/06_tunnel/Neo-reGeorg-5.2.0"
+        },
+        {
+          "item_name": "FRP",
+          "item_des": "",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/06_tunnel/FRP"
+        }
+      ]
+    },
+    {
+      "name": "后渗透",
+      "item": [
+        {
+          "item_name": "NetExec",
+          "item_des": "NetExec",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/07_PostHacking/NetExec"
+        },
+        {
+          "item_name": "Fscan",
+          "item_des": "Fscan",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/07_PostHacking/Fscan"
+        },
+        {
+          "item_name": "CobaltStrike",
+          "item_des": "cobaltstrike",
+          "item_run": "open /Users/luze/Desktop/attackBOX/tools/07_PostHacking/cobaltstrike",
+          "sub_items": [
+            {
+              "item_name": "CobaltStrike4.9.1",
+              "item_des": "CobaltStrike4.9.1",
+              "item_run": "java -Dfile.encoding=UTF-8 -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M  -jar /Users/luze/Desktop/attackBOX/tools/07_PostHacking/cobaltstrike/cobaltstrike4.9.1/CobaltStrike4.9.1_Client/cobaltstrike-client.jar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "About": {}
+}
