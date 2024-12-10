@@ -16,6 +16,31 @@
 
   </p>
 
+## 使用 
+
+第一步，下载这个项目到本地，解压
+
+第二步，将文件夹 macbox-main 重命名成macbox
+
+第三步，初始化环境
+`go init macbox`
+![](images/init1.png)
+
+第四步，下载依赖
+`go mod tidy`
+![](images/init2.png)
+
+第五步，编译并执行
+`go build main.go`
+![](images/init3.png)
+
+第六步，修改你的配置文件
+
+  1、使用编辑器直接编辑config.json
+  
+  2、`go build up.go`  之后使用up工具去管理config.json
+
+
 ## 效果图1
 
 ![](images/aaaa1.png)
@@ -24,10 +49,7 @@
 
 ![](images/aaaa2.png)
 
-## 使用
-主要是config.json,自己手动配置好，或者使用提供的up 去处理也行
 
-运行的时候使用nohup 置于后台即可
 
 ![](images/aaaa3.png)
 有建议和需求可提 ISSUE 
