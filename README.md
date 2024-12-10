@@ -23,7 +23,7 @@
 第二步，将文件夹 macbox-main 重命名成macbox
 
 第三步，初始化环境
-`go init macbox`
+`go mod init macbox`
 ![](images/init1.png)
 
 第四步，下载依赖
